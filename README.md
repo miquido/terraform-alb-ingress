@@ -4,10 +4,17 @@
 # miquido-terraform-alb-ingress
 Quickly create ALB rules to newly created Target Group
 ---
-
-
 Terraform Module
 
+BitBucket Repository: https://bitbucket.org/miquido/terraform-alb-ingress
+## Usage
+
+```hcl
+module {
+  source = "git::ssh://git@bitbucket.org/miquido/terraform-alb-ingress.git?ref=master"
+  ...
+}
+```
 ## Makefile Targets
 ```
 Available targets:
@@ -86,3 +93,4 @@ Copyright © 2017-2019 [Miquido](https://miquido.com)
   [logo]: https://www.miquido.com/img/logos/logo__miquido.svg
   [website]: https://www.miquido.com/
   [github]: https://github.com/miquido
+  [bitbucket]: https://bitbucket.org/miquido
