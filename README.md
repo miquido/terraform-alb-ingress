@@ -113,7 +113,7 @@ No provider.
 2. Regenerate documentation
 
     ```bash
-    bash <(git archive --remote=git@gitlab.com:miquido/terraform/terraform-readme-update.git master update.sh)
+    bash <(git archive --remote=git@gitlab.com:miquido/terraform/terraform-readme-update.git master update.sh | tar -xO)
     ```
 
 3. Run lint
