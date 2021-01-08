@@ -124,7 +124,7 @@ No provider.
 
 ## Copyright
 
-Copyright © 2017-2020 [Miquido](https://miquido.com)
+Copyright © 2017-2021 [Miquido](https://miquido.com)
 
 
 
