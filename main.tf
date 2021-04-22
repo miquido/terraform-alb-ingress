@@ -18,14 +18,12 @@ module "alb-ingress" {
   stickiness_cookie_duration   = var.stickiness_cookie_duration
 
   unauthenticated_listener_arns       = var.listener_arns
-  unauthenticated_listener_arns_count = length(var.listener_arns)
   unauthenticated_hosts               = var.hosts
   unauthenticated_paths               = var.paths
   unauthenticated_priority            = var.priority
 
   authenticated_hosts                        = var.authenticated_hosts
   authenticated_listener_arns                = var.authenticated_listener_arns
-  authenticated_listener_arns_count          = length(var.authenticated_listener_arns)
   authenticated_paths                        = var.authenticated_paths
   authenticated_priority                     = var.authenticated_priority
   authentication_cognito_user_pool_arn       = var.authentication_cognito_user_pool_arn
