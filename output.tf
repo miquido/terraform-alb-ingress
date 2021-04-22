@@ -8,6 +8,11 @@ output "target_group_arn" {
   value       = module.alb-ingress.target_group_arn
 }
 
+output "code_deploy_group_arn" {
+  description = "ALB second Target Group ARN for Code deploy"
+  value       = module.alb-ingress.code_deploy_group_arn
+}
+
 output "target_group_arn_suffix" {
   description = "ALB Target group ARN suffix"
   value       = module.alb-ingress.target_group_arn_suffix
