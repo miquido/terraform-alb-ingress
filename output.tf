@@ -3,6 +3,11 @@ output "target_group_name" {
   value       = module.alb-ingress.target_group_name
 }
 
+output "code_deploy_group_name" {
+  description = "ALB second Target Group name"
+  value       = module.alb-ingress.code_deploy_group_name
+}
+
 output "target_group_arn" {
   description = "ALB Target group ARN"
   value       = module.alb-ingress.target_group_arn
