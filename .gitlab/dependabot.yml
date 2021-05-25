@@ -1,0 +1,16 @@
+version: 2
+updates:
+
+  # Maintain dependencies for terraform
+  - package-ecosystem: "Terraform"
+    directory: "/"
+    assignees:
+      - "marek.moscichowski1"
+      - "krzysztof.kluska"
+    schedule:
+      interval: "daily"
+      time: "12:20"
+    reviewers:
+      - "marek.moscichowski1"
+      - "krzysztof.kluska"
+
