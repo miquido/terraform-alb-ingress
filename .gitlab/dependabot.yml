@@ -6,11 +6,6 @@ updates:
     directory: "/"
     assignees:
       - "marek.moscichowski1"
-      - "krzysztof.kluska"
     schedule:
       interval: "daily"
-      time: "12:27"
-    reviewers:
-      - "marek.moscichowski1"
-      - "krzysztof.kluska"
-
+      time: "13:19"
