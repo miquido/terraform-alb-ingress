@@ -5,9 +5,7 @@ include:
   - project: 'miquido/dev/gitlab-templates'
     ref: 'tags/1.3.6'
     file: 'terraform-toolkit.yml'
-  - project: 'https://github.com/marekmoscichowski/gitlab-templates'
-    ref: 'tags/1.3.6'
-    file: 'git-toolkit.yml'
+  - remote: 'https://github.com/marekmoscichowski/gitlab-templates/git-toolkit.yml'
 
 check-formatting:
   extends: .check-formatting
