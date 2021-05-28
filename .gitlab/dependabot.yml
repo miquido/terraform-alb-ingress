@@ -6,6 +6,8 @@ updates:
     directory: "/"
     assignees:
       - "marek.moscichowski1"
+      - "krzysztof.kluska"
+      - "dawid.orzel"
+      - "tomasz.sojka"
     schedule:
       interval: "daily"
-      time: "8:33"
