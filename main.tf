@@ -1,5 +1,5 @@
 module "alb-ingress" {
-  source                       = "git::https://github.com/cloudposse/terraform-aws-alb-ingress?ref=tags/0.24.1"
+  source                       = "git::https://github.com/cloudposse/terraform-aws-alb-ingress?ref=0.24.1"
   name                         = var.name
   namespace                    = var.project
   stage                        = var.environment
@@ -48,7 +48,7 @@ module "alb-ingress" {
 }
 
 module "alb-target-group-alarms" {
-  source                                 = "git::https://github.com/cloudposse/terraform-aws-alb-target-group-cloudwatch-sns-alarms.git?ref=tags/0.16.1"
+  source                                 = "git::https://github.com/cloudposse/terraform-aws-alb-target-group-cloudwatch-sns-alarms.git?ref=0.16.1"
   enabled                                = var.alb_target_group_alarms_enabled
   name                                   = var.name
   namespace                              = var.project
@@ -71,4 +71,3 @@ module "alb-target-group-alarms" {
   httpcode_alarm_description             = var.alb_target_group_alarms_httpcode_alarm_description
   target_response_time_alarm_description = var.alb_target_group_alarms_response_time_alarm_description
 }
-
