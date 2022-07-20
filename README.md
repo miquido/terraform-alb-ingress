@@ -23,7 +23,7 @@ Available targets:
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.13 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 3.0 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 4.6 |
 
 ## Providers
 
@@ -33,8 +33,8 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_alb-ingress"></a> [alb-ingress](#module\_alb-ingress) | git::https://github.com/cloudposse/terraform-aws-alb-ingress | 0.24.2 |
-| <a name="module_alb-target-group-alarms"></a> [alb-target-group-alarms](#module\_alb-target-group-alarms) | git::https://github.com/cloudposse/terraform-aws-alb-target-group-cloudwatch-sns-alarms.git | 0.16.1 |
+| <a name="module_alb-ingress"></a> [alb-ingress](#module\_alb-ingress) | git::https://github.com/cloudposse/terraform-aws-alb-ingress | 0.24.3 |
+| <a name="module_alb-target-group-alarms"></a> [alb-target-group-alarms](#module\_alb-target-group-alarms) | git::https://github.com/cloudposse/terraform-aws-alb-target-group-cloudwatch-sns-alarms.git | 0.17.0 |
 
 ## Resources
 
