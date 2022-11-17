@@ -33,7 +33,7 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_alb-ingress"></a> [alb-ingress](#module\_alb-ingress) | git::https://github.com/cloudposse/terraform-aws-alb-ingress | 0.24.3 |
+| <a name="module_alb-ingress"></a> [alb-ingress](#module\_alb-ingress) | git::https://github.com/cloudposse/terraform-aws-alb-ingress | 0.25.1 |
 | <a name="module_alb-target-group-alarms"></a> [alb-target-group-alarms](#module\_alb-target-group-alarms) | git::https://github.com/cloudposse/terraform-aws-alb-target-group-cloudwatch-sns-alarms.git | 0.17.0 |
 
 ## Resources
