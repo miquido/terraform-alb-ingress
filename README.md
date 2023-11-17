@@ -131,7 +131,7 @@ No resources.
 
 ## Copyright
 
-Copyright © 2017-2022 [Miquido](https://miquido.com)
+Copyright © 2017-2023 [Miquido](https://miquido.com)
 
 
 
