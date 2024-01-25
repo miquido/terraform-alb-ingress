@@ -1,5 +1,5 @@
 module "alb-ingress" {
-  source                       = "git::https://github.com/cloudposse/terraform-aws-alb-ingress?ref=0.25.1"
+  source                       = "git::https://github.com/cloudposse/terraform-aws-alb-ingress?ref=0.28.0"
   name                         = var.name
   namespace                    = var.project
   stage                        = var.environment
