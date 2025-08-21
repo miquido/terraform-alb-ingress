@@ -16,6 +16,7 @@ module "alb-ingress" {
   stickiness_enabled           = var.stickiness_enabled
   stickiness_type              = var.stickiness_type
   stickiness_cookie_duration   = var.stickiness_cookie_duration
+  listener_http_header_conditions = var.listener_http_header_conditions
 
   unauthenticated_listener_arns = var.listener_arns
   unauthenticated_hosts         = var.hosts
@@ -70,4 +71,5 @@ module "alb-target-group-alarms" {
   treat_missing_data                     = var.alb_target_group_alarms_treat_missing_data
   httpcode_alarm_description             = var.alb_target_group_alarms_httpcode_alarm_description
   target_response_time_alarm_description = var.alb_target_group_alarms_response_time_alarm_description
+
 }

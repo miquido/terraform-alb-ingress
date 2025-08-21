@@ -345,3 +345,12 @@ variable "alb_target_group_alarms_elb_5xx_count_threshold" {
   description = "The maximum count of ELB 5XX requests over a period. A negative value will disable the alert"
   default     = -1
 }
+
+variable "listener_http_header_conditions" {
+  type = list(object({
+    name  = string
+    value = list(string)
+  }))
+  default     = []
+  description = "A list of http header conditions to apply to the listener."
+}
