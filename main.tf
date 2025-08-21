@@ -1,21 +1,21 @@
 module "alb-ingress" {
-  source                       = "git::https://github.com/cloudposse/terraform-aws-alb-ingress?ref=0.28.0"
-  name                         = var.name
-  namespace                    = var.project
-  stage                        = var.environment
-  tags                         = var.tags
-  vpc_id                       = var.vpc_id
-  target_type                  = var.target_type
-  default_target_group_enabled = var.default_target_group_enabled
-  target_group_arn             = var.target_group_arn
-  deregistration_delay         = var.deregistration_delay
-  port                         = var.port
-  protocol                     = var.protocol
-  slow_start                   = var.slow_start
-  authentication_type          = var.authentication_type
-  stickiness_enabled           = var.stickiness_enabled
-  stickiness_type              = var.stickiness_type
-  stickiness_cookie_duration   = var.stickiness_cookie_duration
+  source                          = "git::https://github.com/cloudposse/terraform-aws-alb-ingress?ref=0.28.0"
+  name                            = var.name
+  namespace                       = var.project
+  stage                           = var.environment
+  tags                            = var.tags
+  vpc_id                          = var.vpc_id
+  target_type                     = var.target_type
+  default_target_group_enabled    = var.default_target_group_enabled
+  target_group_arn                = var.target_group_arn
+  deregistration_delay            = var.deregistration_delay
+  port                            = var.port
+  protocol                        = var.protocol
+  slow_start                      = var.slow_start
+  authentication_type             = var.authentication_type
+  stickiness_enabled              = var.stickiness_enabled
+  stickiness_type                 = var.stickiness_type
+  stickiness_cookie_duration      = var.stickiness_cookie_duration
   listener_http_header_conditions = var.listener_http_header_conditions
 
   unauthenticated_listener_arns = var.listener_arns
