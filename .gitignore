@@ -4,3 +4,4 @@ build-harness
 *.tfstate
 *.tfstate.backup
 .vscode
+*.zip
